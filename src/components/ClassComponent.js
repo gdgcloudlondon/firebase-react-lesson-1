@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import SayHello from './SayHello';
 
 class ClassComponent extends Component {
   render() {
-    const personToSayHelloTo = 'world';
+    const personToSayHelloTo = 'Duncan';
 
     return (
       <div className="card">

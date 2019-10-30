@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SayHello from './SayHello';
 
 class StatefulComponent extends Component {
   constructor(props) {
@@ -14,7 +15,7 @@ class StatefulComponent extends Component {
     setTimeout(() => {
       this.setState({
         isLoading: false,
-        personToSayHelloTo: 'world'
+        personToSayHelloTo: 'Stefano'
       });
     }, 2000); // Wait 2 seconds to "load"
   }

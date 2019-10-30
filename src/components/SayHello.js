@@ -2,21 +2,21 @@ import React from 'react';
 
 /**
  * Use me like this with a string;
- *  <FunctionalWithProps personToSayHelloTo="world" />
+ *  <SayHello to="world" />
  *
  * Or like this with a variable;
- *  <FunctionalWithProps personToSayHelloTo={variableName} />
+ *  <SayHello to={variableName} />
  *
  * Remember to import me!
- * import FunctionalWithProps from './FunctionalWithProps';
+ * import SayHello from './SayHello';
  */
-const FunctionalWithProps = (props) => {
+const SayHello = (props) => {
   return (
     <div className="card">
       <img src="https://picsum.photos/300/200" className="card-img-top" alt="..." />
       <div className="card-body">
         <h5 className="card-title">
-          Hello, {props.personToSayHelloTo}!
+          Hello, {props.to}!
         </h5>
         <p className="card-text">Welcome to the course.</p>
       </div>
@@ -24,4 +24,4 @@ const FunctionalWithProps = (props) => {
   );
 }
 
-export default FunctionalWithProps;
+export default SayHello;

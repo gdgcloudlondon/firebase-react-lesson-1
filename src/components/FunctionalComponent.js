@@ -1,7 +1,8 @@
 import React from 'react';
+import SayHello from './SayHello';
 
 const FunctionalComponent = () => {
-  const personToSayHelloTo = 'world';
+  const personToSayHelloTo = 'Amanda';
 
   return (
     <div className="card">
