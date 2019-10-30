@@ -6,13 +6,18 @@ import React from 'react';
  *
  * Or like this with a variable;
  *  <FunctionalWithProps personToSayHelloTo={variableName} />
+ *
+ * Remember to import me!
+ * import FunctionalWithProps from './FunctionalWithProps';
  */
-function FunctionalWithProps(props) {
+const FunctionalWithProps = (props) => {
   return (
     <div className="card">
       <img src="https://picsum.photos/300/200" className="card-img-top" alt="..." />
       <div className="card-body">
-        <h5 className="card-title">Hello, {props.personToSayHelloTo}!</h5>
+        <h5 className="card-title">
+          Hello, {props.personToSayHelloTo}!
+        </h5>
         <p className="card-text">Welcome to the course.</p>
       </div>
     </div>
