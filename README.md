@@ -1,6 +1,6 @@
 # Lesson 1
 
-The aim is to refactor `Component.js`, `Functional.js`, and `StatefulComponent.js` to use `FunctionalWithProps.js`. We want to reduce the code duplication of the element with the card.
+The aim is to refactor `ClassComponent.js`, `FunctionalComponent.js`, and `StatefulComponent.js` to use `FunctionalWithProps.js`. We want to reduce the code duplication of the element with the card.
 
 
 ---
