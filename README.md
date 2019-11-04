@@ -1,7 +1,9 @@
 # Lesson 1
 
-The aim is to refactor `ClassComponent.js`, `FunctionalComponent.js`, and `StatefulComponent.js` to use `FunctionalWithProps.js`. We want to reduce the code duplication of the element with the card.
+There are two goals for this lesson;
 
+1. Change `ClassComponent.js`, `FunctionalComponent.js`, and `StatefulComponent.js` to use the `SayHello.js` component (this is so we can reduce the amount of duplicated code)
+2. Update `App.js` to loop through the `names` array and `SayHello` to each person. Try adding your name!
 
 ---
 
