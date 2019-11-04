@@ -25,7 +25,7 @@ const App = () => {
       {/* Exercise */}
       <div className="row">
         {names.map(name => {
-          // what shall I return here?
+          // How can I say hello to people here?
           return null;
         })}
       </div>

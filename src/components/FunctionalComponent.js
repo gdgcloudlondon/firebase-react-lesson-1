@@ -1,5 +1,4 @@
 import React from 'react';
-import SayHello from './SayHello';
 
 const FunctionalComponent = () => {
   const personToSayHelloTo = 'Amanda';

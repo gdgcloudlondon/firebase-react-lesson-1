@@ -8,7 +8,7 @@ import React from 'react';
  *  <SayHello to={variableName} />
  *
  * Remember to import me!
- * import SayHello from './SayHello';
+ *  import SayHello from './SayHello';
  */
 const SayHello = (props) => {
   return (

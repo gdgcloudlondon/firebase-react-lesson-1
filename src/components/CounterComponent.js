@@ -3,10 +3,7 @@ import React, { Component } from 'react';
 class CounterComponent extends Component {
   constructor(props) {
     super(props);
-
-    this.state = {
-      count: 0
-    }
+    this.state = { count: 0 };
   }
 
   addNumber = () => {
@@ -16,11 +13,6 @@ class CounterComponent extends Component {
   }
 
   render() {
-    if (this.state.isLoading) {
-      // We don't always have to use HTML - we can print out just text
-      return 'Loading...';
-    }
-
     return (
       <div>
         You've clicked <b>{this.state.count}</b> times!
