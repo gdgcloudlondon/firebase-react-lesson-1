@@ -1,6 +1,6 @@
 # Lesson 1
 
-There are two goals for this lesson;
+There are three goals for this lesson;
 
 1. Create your own Functional Component, and render the HTML below. Render it beneath the CounterComponent in “app.js”
 2. The button in the "CounterComponent" is not working - can you make it work? One of the previous slides will help if you get stuck.
