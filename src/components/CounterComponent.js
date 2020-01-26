@@ -7,16 +7,19 @@ class CounterComponent extends Component {
   }
 
   addNumber = () => {
-    this.setState({
-      count: this.state.count + 1
-    })
+    // Exercise 2
+    // How can I add 1 to "count" stored in "this.state"?
   }
+
+  // Exercise 3 code will go here
 
   render() {
     return (
       <div>
-        You've clicked <b>{this.state.count}</b> times!
-        <span className="btn btn-primary" onClick={this.addNumber}>Click me!</span>
+        You've clicked <b>{this.state.count}</b> times
+        <span className="btn btn-primary ml-2" onClick={this.addNumber}>
+          Click me!
+        </span>
       </div>
     );
   }
