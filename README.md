@@ -2,8 +2,19 @@
 
 There are two goals for this lesson;
 
-1. Change `ClassComponent.js`, `FunctionalComponent.js`, and `StatefulComponent.js` to use the `SayHello.js` component (this is so we can reduce the amount of duplicated code)
-2. Update `App.js` to loop through the `names` array and `SayHello` to each person. Try adding your name!
+1. Create your own Functional Component, and render the HTML below. Render it beneath the CounterComponent in “app.js”
+2. The button in the "CounterComponent" is not working - can you make it work? One of the previous slides will help if you get stuck.
+3. Let's give the "CounterComponent" another button, but instead of it adding to the number, let's take away from the number each time it is pressed.
+
+HTML to render for Exercise 1;
+
+```html
+<img
+  src="http://placekitten.com/300/300"
+  alt="..."
+  className="spinning-cats mt-2"
+/>
+```
 
 ---
 
